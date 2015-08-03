@@ -2,6 +2,8 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'hodor'
 
 require 'support/capture'
+require 'support/app_builder'
+
 require 'minitest/pride'
 require 'minitest/autorun'
 require "minitest/reporters"
